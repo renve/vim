@@ -10,3 +10,5 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set noshiftround
+# for yaml
+autocmd FileType yaml setlocal ai ts=2 sw=2 et
